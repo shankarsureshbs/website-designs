@@ -1,0 +1,79 @@
+@import url("./components/variables.css");
+@import url("./components/typography.css");
+@import url("./components/colors.css");
+@import url("./components/buttons.css");
+@import url("./components/responsive.css");
+
+body {
+  font-family: poppins, "sans-serif";
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 1rem; /* balanced horizontal padding */
+  box-sizing: border-box;
+
+  /* Fluid scaling:
+     - starts near 90% width on small screens
+     - grows proportionally until 1440px
+     - then interpolates 1140px → 1520px between 1440–1920px
+     - capped at 1520px after 1920px */
+  max-width: clamp(
+    90%,
+    calc(1140px + (380 * ((100vw - 1440px) / 480))),
+    1520px
+  );
+}
+
+/* NAVIGATION */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* HERO */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 0;
+}
+
+.hero-container .heading-1 .text-primary {
+  display: block;
+}
+
+.hero-container .heading-1,
+p {
+  margin-bottom: 1.5625rem;
+}

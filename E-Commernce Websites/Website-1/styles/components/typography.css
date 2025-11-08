@@ -1,0 +1,83 @@
+/* =========================
+   HEADLINES
+========================= */
+
+.heading-1 {
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-xxl);
+  font-weight: var(--font-weight-semibold);
+}
+
+.heading-2 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+.heading-3 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+.heading-4 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* =========================
+   BODY TEXT – REGULAR
+========================= */
+
+.text-body-1 {
+  font-size: var(--font-size-base-lg);
+  line-height: var(--line-height-base-lg);
+  font-weight: var(--font-weight-regular);
+}
+
+.text-body-2 {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-regular);
+}
+
+.text-body-3 {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  font-weight: var(--font-weight-regular);
+}
+
+.text-body-4 {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xs);
+  font-weight: var(--font-weight-regular);
+}
+
+/* =========================
+   BODY TEXT – MEDIUM
+========================= */
+
+.text-body-1-medium {
+  font-size: var(--font-size-base-lg);
+  line-height: var(--line-height-base-lg);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-body-2-medium {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-body-3-medium {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-body-4-medium {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xs);
+  font-weight: var(--font-weight-medium);
+}

@@ -1,0 +1,86 @@
+:root {
+  /* BREAK-POINTS */
+
+  --bp-sm: 30rem; /* 480px */
+  --bp-md: 48rem; /* 768px */
+  --bp-lg: 64rem; /* 1024px */
+  --bp-xl: 90rem; /* 1440px */
+  --bp-xxl: 120rem; /* 1920px */
+
+  /* COLORS */
+  --black: #263238;
+  --d-grey: #4d4d4d;
+  --grey: #717171;
+  --l-grey: #89939e;
+  --grey-blue: #abbed1;
+  --silver: #f5f7fa;
+  --white: #ffffff;
+
+  --primary: #28cb8b;
+  --secondary: #263238;
+  --info: #2194f3;
+
+  --shade-1: #43a046;
+  --shade-2: #388e3b;
+  --shade-3: #237d31;
+  --shade-4: #1b5e1f;
+  --shade-5: #103e13;
+
+  --tint-1: #66bb69;
+  --tint-2: #81c784;
+  --tint-3: #a5d6a7;
+  --tint-4: #c8e6c9;
+  --tint-5: #e8f5e9;
+
+  --warning: #fbc02d;
+  --error: #e53835;
+  --success: #2e7d31;
+
+  --grey-blue-rgb: 171, 190, 209;
+
+  /* =========================
+     FONT SIZES
+  ========================== */
+
+  --font-size-xxl: 4rem; /* 64px */
+  --font-size-xl: 2.25rem; /* 36px */
+  --font-size-lg: 1.75rem; /* 28px */
+  --font-size-l: 1.5rem; /* 24px */
+  --font-size-md: 1.25rem; /* 20px */
+  --font-size-base-lg: 1.125rem; /* 18px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-xs: 0.75rem; /* 12px */
+
+  /* =========================
+     LINE HEIGHTS
+  ========================== */
+
+  --line-height-xxl: 4.75rem; /* 76px */
+  --line-height-xl: 2.75rem; /* 44px */
+  --line-height-lg: 2.25rem; /* 36px */
+  --line-height-md: 1.75rem; /* 28px */
+  --line-height-base-lg: 1.75rem; /* 28px */
+  --line-height-base: 1.5rem; /* 24px */
+  --line-height-sm: 1.25rem; /* 20px */
+  --line-height-xs: 1rem; /* 16px */
+
+  /* =========================
+     FONT WEIGHTS
+  ========================== */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* =========================
+     SHADOWS
+     (Color: #ABBED1)
+  ========================== */
+
+  --shadow-sm: 0px 2px 4px rgba(var(--grey-blue-rgb), 0.6);
+  --shadow-md: 0px 4px 8px rgba(var(--grey-blue-rgb), 0.4);
+  --shadow-lg: 0px 6px 12px rgba(var(--grey-blue-rgb), 0.3);
+  --shadow-xl: 0px 8px 16px rgba(var(--grey-blue-rgb), 0.4);
+  --shadow-xxl: 0px 16px 24px rgba(var(--grey-blue-rgb), 0.3);
+}

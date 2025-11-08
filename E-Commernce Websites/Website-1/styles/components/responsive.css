@@ -1,0 +1,22 @@
+/* ≤ 1024px / 64rem */
+@media (max-width: var(--bp-lg)) {
+  .container {
+    max-width: min(90%, 60rem); /* 960px */
+    padding-inline: 1.5rem;
+  }
+}
+/* ≤ 768px / 48rem */
+@media (max-width: var(--bp-md)) {
+  .container {
+    max-width: min(94%, 43.75rem); /* 700px */
+    padding-inline: 1.25rem;
+  }
+}
+
+/* ≤ 480px / 30rem */
+@media (max-width: var(--bp-sm)) {
+  .container {
+    max-width: 100%;
+    padding-inline: 1rem;
+  }
+}
